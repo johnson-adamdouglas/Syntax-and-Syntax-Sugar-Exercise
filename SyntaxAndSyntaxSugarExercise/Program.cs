@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             var answer = 30;
-            string response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";
+            var response = (answer < 9) ? $"{answer} is less than nine" : $"{answer} is greater than or equal to nine";
             
         }    
     }
